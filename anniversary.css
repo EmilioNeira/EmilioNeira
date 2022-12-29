@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+     }
+    body{
+        background-color: antiquewhite;
+    }
+    
+    button{
+    
+        padding: 0;
+        border: none;
+        font: inherit;
+        color: inherit;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    
+    button:focus{
+        outline: 0;
+    }
+    
+    .main-text h1{
+    
+        margin-top: 17%;
+     
+    }
+    .header{
+        min-height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(background/main-image.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: center;
+        
+    }
+    
+    
+    
+    
+    nav{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center; 
+        
+    }
+    .nav.links{
+        flex:1;
+        text-align: center;
+    }
+    .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 120px;
+    position: relative;
+    padding-left: 10;
+    }
+    
+    .nav-links ul li a{
+        color:whitesmoke;
+        text-decoration: none;
+        font-size:x-large;
+        
+    }
+    
+    
+    
+    .main-text{
+        width: 90€;
+        color: antiquewhite;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    
+    }
+    .main-text h1{
+        font-size: 50px ;
+    }
+    
+    .identity{
+    
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 50px;
+    }
+    
+    
+    
+    
